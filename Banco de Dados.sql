@@ -1,6 +1,10 @@
 create database BookSwap;
 use BookSwap;
 
+select * from users;
+select * from books;
+select * from  trade_requests;
+
 create table users(
 	id				int AUTO_INCREMENT					not null,
 	username 		varchar(100) 						not null,
